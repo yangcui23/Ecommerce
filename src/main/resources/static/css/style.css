@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    width: 100%;
+    height: 8%;
+    margin: 0;
+    background-color: #0A4ABF;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    z-index: 100;
+}
+.nav h1 {
+    margin: 0;
+    color: aqua;
+}
+
+.contentContainer {
+    width: 100%;
+    height: 84%;
+    background-color: #dee2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.logo {
+    width: 80px;
+    height: 60px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+.goBack{
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.bottomDes {
+    position: fixed;
+    bottom: 0;
+    border-top: 0.5px grey solid;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottomDes p {
+    font-size: small;
+}
+
+.links a {
+    text-decoration: none;
+    color: blue;
+    margin-left: 20px;
+    font-size: small;
+}
+.links {
+    display: flex;
+    align-items: center;
+}
+.registerForm {
+    padding: 20px;
+    width: 25%;
+    height: 600px;
+    border: 1px #adb5bd solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formInput {
+    width: 100%;
+    height: 50px;
+}
+
+.formDiv {
+    width: 100%;
+
+}

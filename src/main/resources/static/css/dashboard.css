@@ -1,0 +1,167 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-color: #0A4ABF;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    z-index: 100;
+}
+.nav h1 {
+    margin: 0;
+    color: aqua;
+}
+
+.contentContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.bi {
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
+}
+.b {
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
+}
+.dropdown-label {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.menuText{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.searchInput {
+    width: 700px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    outline: none;
+    transition: all 0.3s;
+    padding-left: 10px;
+    font-size: larger;
+}
+.form {
+    display: flex;
+    align-items: center;
+
+}
+.searchInput:focus {
+    box-shadow: 0 0 10px rgba(10, 74, 191, 0.5), 0 0 20px rgba(10, 74, 191, 0.3); /* Enhance shadow when focused */
+    padding-left: 15px;
+}
+
+.fi {
+    font-size: 22px;
+}
+.searchButton {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.dropdownDiv {
+    border-bottom: 0.5px white solid;
+    border-top:0.5px white solid;
+    width: 100%;
+    height: 50px;
+    background-color: #0A4ABF;
+}
+
+.topCate {
+    width: 70%;
+    height: 150px;
+    border: 1px #adb5bd solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
+
+}
+.allCate {
+    width: 70%;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.cateImage {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    display: block;   /* Remove any inline spacing */
+    border-radius: 50%;
+
+
+}
+.categoryItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    height: 170px;
+}
+
+.imgDiv {
+    width: 200px;
+    height: 200px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.botDiv {
+    width: 100%;
+    height: 350px;
+    padding: 40px;
+    background-color: #e9ecef;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
